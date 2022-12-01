@@ -38,3 +38,13 @@ print(list)
 print(list.index(9))
 list.reverse()
 print(list)
+
+# Set
+set = {1, 2, 3, 5, 4, 3}
+
+print(set)
+
+print(set)
+# Tuple
+tup = (1, 2, 3, 4)
+print(tup.count(1))
