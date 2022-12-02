@@ -48,3 +48,12 @@ print(set)
 # Tuple
 tup = (1, 2, 3, 4)
 print(tup.count(1))
+
+# Dictionary
+
+data = {"Java": {"SE": "NetBeans", "EE": "Eclipes"}, "Python": ["Pycharm", "Sublime"], "JS": "VScode"}
+
+print(data)
+print(data["Java"]["SE"])
+print(data["Python"][1])
+print(data["JS"])
