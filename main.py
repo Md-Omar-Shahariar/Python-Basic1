@@ -57,3 +57,7 @@ print(data)
 print(data["Java"]["SE"])
 print(data["Python"][1])
 print(data["JS"])
+
+print(id(str))
+
+print(type("af"))
