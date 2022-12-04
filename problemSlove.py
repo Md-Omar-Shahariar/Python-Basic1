@@ -1,4 +1,6 @@
+import math as m
 #fibonacchi series
+
 a, b = 0, 1
 while a < 10:
     print(a)
@@ -44,5 +46,10 @@ def swap3(c, d):
 
 
 swap3(6, 7)
+
+print(m.pow(2, 3))
+print(m.sqrt(5))
+print(m.pi)
+print(m.e)
 
 
