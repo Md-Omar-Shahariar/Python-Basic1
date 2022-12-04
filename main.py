@@ -60,4 +60,36 @@ print(data["JS"])
 
 print(id(str))
 
-print(type("af"))
+#data types
+#None Type
+none = None
+print(type(none))
+
+#Numeric Type
+a = 3
+print(type(a))
+b = 4.0
+print(type(b))
+b=int(b)
+print(type(b))
+c = complex(a, b)
+print(c)
+print(type(c))
+boo = a>b
+print(type(boo))
+
+#List
+#set
+#tuple
+#String
+#range type
+for i in range(0,5):
+    print((i))
+
+
+#dictionary
+
+dicto = {"a": "12", "b": {"1": "c", "2": "v"}}
+print(dicto.keys())
+print(dicto.values())
+print(dicto["b"]["2"])
