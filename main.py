@@ -98,3 +98,12 @@ print(dicto["b"]["2"])
 print(2<4 or 3>4)
 print(2<4 and 3>4)
 print(not 0)
+#number system conversion
+
+binary = bin(25)
+print(binary)
+octal = oct(25)
+hexa = hex(25)
+print(octal)
+print(hexa)
+print(0b1001)
