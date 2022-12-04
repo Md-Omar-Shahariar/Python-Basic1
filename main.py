@@ -93,3 +93,8 @@ dicto = {"a": "12", "b": {"1": "c", "2": "v"}}
 print(dicto.keys())
 print(dicto.values())
 print(dicto["b"]["2"])
+
+#logical operators
+print(2<4 or 3>4)
+print(2<4 and 3>4)
+print(not 0)
