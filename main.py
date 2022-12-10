@@ -15,7 +15,6 @@ print("c:ad\newFolder")
 str = "Afridi"
 str = str + "01"
 
-
 print(str[3:])
 print(str[1:3])
 
@@ -60,45 +59,44 @@ print(data["JS"])
 
 print(id(str))
 
-#data types
-#None Type
+# data types
+# None Type
 none = None
 print(type(none))
 
-#Numeric Type
+# Numeric Type
 a = 3
 print(type(a))
 b = 4.0
 print(type(b))
-b=int(b)
+b = int(b)
 print(type(b))
 c = complex(a, b)
 print(c)
 print(type(c))
-boo = a>b
+boo = a > b
 print(type(boo))
 
-#List
-#set
-#tuple
-#String
-#range type
-for i in range(0,5):
-    print((i))
+# List
+# set
+# tuple
+# String
+# range type
+for i in range(0, 5):
+    print(i)
 
-
-#dictionary
+# dictionary
 
 dicto = {"a": "12", "b": {"1": "c", "2": "v"}}
 print(dicto.keys())
 print(dicto.values())
 print(dicto["b"]["2"])
 
-#logical operators
-print(2<4 or 3>4)
-print(2<4 and 3>4)
+# logical operators
+print(2 < 4 or 3 > 4)
+print(2 < 4 and 3 > 4)
 print(not 0)
-#number system conversion
+# number system conversion
 
 binary = bin(25)
 print(binary)
@@ -107,3 +105,4 @@ hexa = hex(25)
 print(octal)
 print(hexa)
 print(0b1001)
+
