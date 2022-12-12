@@ -13,3 +13,9 @@ arr5 =array([1,2,3,4,4,5])
 print(unique(arr5))
 print(sort(arr5))
 print(max(arr5))
+
+print(concatenate([arr,arr2]))
+print([1,2,3,4].index(3))
+
+arr6 = arr.copy()
+print(arr6)
