@@ -1,4 +1,4 @@
-u = int(input())
+u = int(input("Enter Value:"))
 for i in range(1,u):
     for x in range(1,u-i):
         print(" ",end="")
@@ -13,5 +13,3 @@ for i in range(1, u):
         print("*", end="")
 
     print("\n")
-
-
