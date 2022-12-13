@@ -1,5 +1,6 @@
-def add(a, b):
-    print(a + b)
+def add_sub(a, b):
+    return a + b, a - b
 
 
-add(4, 5)
+result1, result2 = add_sub(4, 5)
+print(result1, result2)
